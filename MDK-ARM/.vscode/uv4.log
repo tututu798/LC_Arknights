@@ -1,0 +1,23 @@
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\keil2\ARM\ARMCC\Bin'
+Build target 'm3508'
+compiling stm32f4xx_hal_flash.c...
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c(104): error:  #29: expected an expression
+  FLASH_ProcessTypeDef pFlash  = {.ProcedureOnGoing = FLASH_PROC_NONE,
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c(105): error:  #29: expected an expression
+                                  .NbSectorsToErase = 0U,
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c(106): error:  #29: expected an expression
+                                  .VoltageForErase= FLASH_VOLTAGE_RANGE_1,
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c(107): error:  #29: expected an expression
+                                  .Sector = 0U,
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c(108): error:  #29: expected an expression
+                                  .Bank = FLASH_BANK_1,
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c(109): error:  #29: expected an expression
+                                  .Address = 0U,
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c(110): error:  #29: expected an expression
+                                  .Lock = HAL_UNLOCKED,
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c(111): error:  #29: expected an expression
+                                  .ErrorCode = HAL_FLASH_ERROR_NONE};
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c: 0 warnings, 8 errors
+"m3508\m3508.axf" - 8 Error(s), 0 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:02

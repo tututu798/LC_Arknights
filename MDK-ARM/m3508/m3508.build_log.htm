@@ -1,0 +1,79 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Y lenovo, YOU, LIC=9WSKC-7UXTZ-Z9KG9-49I50-QR67F-XMXIN
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  D:\keil2\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+C:\Users\lenovo\Desktop\m3508\MDK-ARM\m3508.uvprojx
+Project File Date:  01/29/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\keil2\ARM\ARMCC\Bin'
+Build target 'm3508'
+compiling main.c...
+../Core/Src/main.c(103): error:  #20: identifier "NULL_Call_Back" is undefined
+  CAN_Init (&hcan1,NULL_Call_Back);
+../Core/Src/main.c: 0 warnings, 1 error
+compiling stm32f4xx_hal_flash.c...
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c(104): error:  #29: expected an expression
+  FLASH_ProcessTypeDef pFlash  = {.ProcedureOnGoing = FLASH_PROC_NONE,
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c(105): error:  #29: expected an expression
+                                  .NbSectorsToErase = 0U,
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c(106): error:  #29: expected an expression
+                                  .VoltageForErase= FLASH_VOLTAGE_RANGE_1,
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c(107): error:  #29: expected an expression
+                                  .Sector = 0U,
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c(108): error:  #29: expected an expression
+                                  .Bank = FLASH_BANK_1,
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c(109): error:  #29: expected an expression
+                                  .Address = 0U,
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c(110): error:  #29: expected an expression
+                                  .Lock = HAL_UNLOCKED,
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c(111): error:  #29: expected an expression
+                                  .ErrorCode = HAL_FLASH_ERROR_NONE};
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c: 0 warnings, 8 errors
+"m3508\m3508.axf" - 9 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM.CMSIS.5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.8.0.pack
+                Keil.STM32F4xx_DFP.2.8.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_m3508
+  D:\keil2\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  D:\keil2\ARM\PACK\Keil\STM32F4xx_DFP\2.8.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
